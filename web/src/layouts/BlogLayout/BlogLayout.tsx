@@ -9,9 +9,9 @@ const BlogLayout = ({ children }: BlogLayoutProps) => {
     <>
       <header>
         <nav className="bg-blue-500 p-4">
-          <div className="container mx-auto">
+          <div className="container mx-auto px-1 py-1">
             <div className="flex items-center justify-between">
-              <div className="text-xl font-bold text-white">Redwood Blog</div>
+              <div className="text-xl font-bold text-white mb-4">Redwood Blog</div>
               <ul className="flex space-x-4">
                 <li className="text-white">
                   <Link to={routes.home()}>Home</Link>
